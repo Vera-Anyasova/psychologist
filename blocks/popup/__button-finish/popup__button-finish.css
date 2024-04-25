@@ -1,0 +1,22 @@
+.popup__button-finish {
+  background: url(../../../images/close-icon.svg) no-repeat;
+  width: 32px;
+  height: 32px;
+  top: 10px;
+  right: 10px;
+  z-index: 5;
+}
+
+@media screen and (max-width: 984px) {
+  .popup__button-finish {
+    width: 25px;
+    height: 25px;
+  }
+}
+
+@media screen and (max-width: 715px) {
+  .popup__button-finish {
+    width: 24px;
+    height: 24px;
+  }
+}

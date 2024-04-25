@@ -1,0 +1,15 @@
+.test__icon {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  margin: 0 15px 0 0;
+  padding: 0 0 15px;
+}
+
+@media screen and (max-width: 525px) {
+  .test__icon {
+    width: 55px;
+    height: 55px;
+    padding-bottom: 10px;
+  }
+}

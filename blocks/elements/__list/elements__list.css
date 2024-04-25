@@ -1,0 +1,27 @@
+.elements__list {
+  width: 845px;
+  min-height: fit-content;
+  max-width: 100%;
+  max-height: 100%;
+  display: flex;
+  align-items: center;
+  padding: 0;
+  margin: 0 25px;
+  z-index: 2;
+}
+
+.hidden {
+  display: none;
+}
+
+@media screen and (max-width: 984px) {
+  .elements__list {
+    margin: 0 20px;
+  }
+}
+
+@media screen and (max-width: 715px) {
+  .elements__list {
+    margin: 0 10px;
+  }
+}

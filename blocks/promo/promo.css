@@ -1,0 +1,13 @@
+.promo {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 0 100px;
+}
+
+@media screen and (max-width: 715px) {
+  .promo {
+    margin-bottom: 60px;
+  }
+}

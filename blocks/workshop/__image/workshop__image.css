@@ -1,0 +1,6 @@
+.workshop__image {
+    background: url(../../../images/workshop3.png) no-repeat;
+    background-size: contain;
+    width: 410px;
+    height: 400px;
+}

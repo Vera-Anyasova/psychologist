@@ -1,0 +1,35 @@
+.test {
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 0 20px;
+  padding: 0 0 120px;
+  position: relative;
+}
+
+@media screen and (max-width: 1280px) {
+  .test {
+    padding-bottom: 100px;
+  }
+}
+
+@media screen and (max-width: 1184px) {
+  .test {
+    padding-bottom: 80px;
+  }
+}
+
+@media screen and (max-width: 984px) {
+  .test {
+    padding-bottom: 50px;
+  }
+}
+
+@media screen and (max-width: 715px) {
+  .test {
+    margin-bottom: 0;
+    padding-bottom: 30px;
+  }
+}

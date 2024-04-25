@@ -1,0 +1,13 @@
+.aboutMe__place {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin: 20px 0 30px;
+  list-style-type: none;
+}
+
+@media screen and (max-width: 720px) {
+  .aboutMe__place {
+    margin: 10px 0 25px;
+  }
+}

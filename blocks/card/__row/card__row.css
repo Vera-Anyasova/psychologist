@@ -1,0 +1,32 @@
+.card__row {
+  display: flex;
+  flex-flow: row nowrap;
+  width: min-content;
+  margin-bottom: 40px;
+}
+
+.card__row:nth-of-type(1) {
+  animation: slide 100s linear infinite;
+}
+
+.card__row:nth-of-type(2) {
+  animation: slide 100s linear infinite reverse;
+}
+
+@keyframes slide {
+  to {
+    transform: translatex(-50%);
+  }
+}
+
+@media screen and (max-width: 984px) {
+  .card__row {
+    margin-bottom: 30px;
+  }
+}
+
+@media screen and (max-width: 715px) {
+  .card__row {
+    margin-bottom: 20px;
+  }
+}

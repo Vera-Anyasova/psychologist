@@ -1,0 +1,18 @@
+.aboutMe__image {
+  height: 660px;
+  box-sizing: border-box;
+  object-fit: cover;
+}
+
+@media screen and (max-width: 720px) {
+  .aboutMe__image {
+    width: 60%;
+    height: 100%;
+  }
+}
+
+@media screen and (max-width: 525px) {
+  .aboutMe__image {
+    width: 70%;
+  }
+}

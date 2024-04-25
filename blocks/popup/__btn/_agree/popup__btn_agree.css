@@ -1,0 +1,7 @@
+.popup__btn_agree {
+  background-image: url(../../../../images/checkmark_white.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 15% 45%;
+  background-size: 25px;
+}

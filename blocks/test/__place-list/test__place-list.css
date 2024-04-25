@@ -1,0 +1,19 @@
+.test__place-list {
+  width: 55%;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+}
+
+@media screen and (max-width: 984px) {
+  .test__place-list {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 715px) {
+  .test__place-list {
+    width: 90%;
+  }
+}

@@ -1,0 +1,19 @@
+.profile__element_hidden {
+  display: none;
+}
+
+@media screen and (max-width: 715px) {
+  .profile__element_hidden {
+    display: flex;
+    height: 80px;
+    margin-bottom: 0;
+  }
+}
+
+@media screen and (max-width: 525px) {
+  .profile__element_hidden {
+    display: flex;
+    height: 80px;
+    margin-top: -10%;
+  }
+}

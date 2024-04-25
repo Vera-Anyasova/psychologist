@@ -1,0 +1,15 @@
+.popup__article-icon {
+  position: relative;
+}
+
+.popup__article-icon::after {
+  content: "";
+  width: 20px;
+  height: 20px;
+  background: url(../../../images/icon_plants.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  left: auto;
+}

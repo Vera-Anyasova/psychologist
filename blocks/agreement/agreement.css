@@ -1,0 +1,28 @@
+.agreement {
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto 100px;
+  position: relative;
+}
+
+@media screen and (max-width: 1184px) {
+  .agreement {
+    margin-bottom: 70px;
+  }
+}
+
+@media screen and (max-width: 984px) {
+  .agreement {
+    margin-bottom: 60px;
+  }
+}
+
+@media screen and (max-width: 715px) {
+  .agreement {
+    margin-bottom: 50px;
+  }
+}

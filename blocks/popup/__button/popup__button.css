@@ -1,0 +1,26 @@
+.popup__button {
+  display: block;
+  width: 32px;
+  height: 32px;
+  background: url(../../../images/close-icon.svg) no-repeat center / cover;
+  position: absolute;
+  top: 22px;
+  right: 22px;
+  z-index: 15;
+  border: 0;
+  padding: 0;
+}
+
+.popup__button:hover {
+  opacity: 0.6;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 715px) {
+  .popup__button {
+    width: 30px;
+    height: 30px;
+    top: 13px;
+    right: 13px;
+  }
+}

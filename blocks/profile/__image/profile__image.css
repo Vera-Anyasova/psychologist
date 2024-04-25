@@ -1,0 +1,17 @@
+.profile__image {
+  width: 119px;
+  min-height: 17px;
+  object-fit: contain;
+}
+
+@media screen and (max-width: 9845px) {
+  .profile__image {
+    width: 90px;
+  }
+}
+
+@media screen and (max-width: 715px) {
+  .profile__image {
+    width: 25%;
+  }
+}

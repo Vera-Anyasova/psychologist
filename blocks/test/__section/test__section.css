@@ -1,0 +1,15 @@
+.test__section {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  padding: 25px 0 0;
+}
+
+@media screen and (max-width: 715px) {
+  .test__section {
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+  }
+}

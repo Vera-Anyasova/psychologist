@@ -1,0 +1,10 @@
+.telegram {
+  padding: 0;
+  margin: 0 0 100px;
+}
+
+@media screen and (max-width: 715px) {
+  .telegram {
+    margin-bottom: 60px;
+  }
+}

@@ -1,0 +1,8 @@
+.popup__btn_disagree {
+  background-image: url(../../../../images/btn_close.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 10% 45%;
+  background-size: 20px;
+  background-color: red;
+}

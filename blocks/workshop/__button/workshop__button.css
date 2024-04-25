@@ -1,0 +1,15 @@
+.workshop__button {
+    width: 274px;
+    height: 89.5px;
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #fff;
+    box-sizing: border-box;
+    border: 0;
+    border-radius: 10px;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.3);
+    background: linear-gradient(-45deg, #f53d14, #f18666, #f53d14);
+    background-clip: text;
+    margin: 0;
+}

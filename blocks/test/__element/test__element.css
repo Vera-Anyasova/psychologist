@@ -1,0 +1,19 @@
+.test__element {
+  width: 100%;
+  height: 40%;
+  background: #57b597;
+  position: absolute;
+  right: 0;
+  bottom: -20px;
+  border-radius: 50px;
+  filter: blur(50px);
+  z-index: -1;
+}
+
+@media screen and (max-width: 715px) {
+  .test__element {
+    top: -20px;
+    left: 0;
+    filter: blur(45px);
+  }
+}

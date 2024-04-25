@@ -1,0 +1,22 @@
+.promo__subtitle {
+  font-family: "Bebas Neue", Arial, sans-serif;
+  max-width: 300px;
+  font-size: 32px;
+  line-height: 1.2;
+  color: #fff;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+@media screen and (max-width: 984px) {
+  .promo__subtitle {
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 715px) {
+  .promo__subtitle {
+    max-width: 250px;
+    font-size: 32px;
+  }
+}

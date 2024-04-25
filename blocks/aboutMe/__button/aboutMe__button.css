@@ -1,0 +1,39 @@
+.aboutMe__button {
+  width: 274px;
+  height: 89.5px;
+  font-size: 20px;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: #fff;
+  box-sizing: border-box;
+  border: 0;
+  border-radius: 10px;
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.3);
+  background: #57b597;
+  margin: 20px 0 0;
+}
+
+.aboutMe__button:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+@media screen and (max-width: 1184px) {
+  .aboutMe__button {
+    margin: 0;
+  }
+}
+
+@media screen and (max-width: 984px) {
+  .aboutMe__button {
+    width: 250px;
+    height: 84px;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .aboutMe__button {
+    width: 274px;
+    height: 89.5px;
+  }
+}

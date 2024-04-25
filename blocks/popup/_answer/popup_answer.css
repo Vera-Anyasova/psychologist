@@ -1,0 +1,6 @@
+.popup_answer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: none;
+}

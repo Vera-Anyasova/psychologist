@@ -1,0 +1,21 @@
+.popup__card-answer {
+  width: 70%;
+  max-height: 650px;
+  box-sizing: border-box;
+  overflow: auto;
+  position: relative;
+}
+
+@media screen and (max-width: 1184px) {
+  .popup__card-answer {
+    width: 80%;
+    max-height: 600px;
+  }
+}
+
+@media screen and (max-width: 984px) {
+  .popup__card-answer {
+    width: 90%;
+    max-height: 500px;
+  }
+}

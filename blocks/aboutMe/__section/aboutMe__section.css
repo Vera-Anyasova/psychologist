@@ -1,0 +1,24 @@
+.aboutMe__section {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  z-index: 3;
+}
+
+@media screen and (max-width: 1280px) {
+  .aboutMe__section {
+    width: 55%;
+  }
+}
+
+@media screen and (max-width: 1184px) {
+  .aboutMe__section {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 984px) {
+  .aboutMe__section {
+    width: 96%;
+  }
+}

@@ -1,0 +1,24 @@
+.agreement__container-list {
+  width: 75%;
+  border: none;
+  border-radius: 0;
+  padding: 0;
+}
+
+@media screen and (max-width: 1184px) {
+  .agreement__container-list {
+    width: 85%;
+  }
+}
+
+@media screen and (max-width: 715px) {
+  .agreement__container-list {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 525px) {
+  .agreement__container-list {
+    width: 75%;
+  }
+}

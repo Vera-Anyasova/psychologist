@@ -1,0 +1,19 @@
+.popup__btn_end {
+  width: 200px;
+  height: 76px;
+}
+
+@media screen and (max-width: 715px) {
+  .popup__btn_end {
+    height: 65px;
+  }
+}
+
+@media screen and (max-width: 525px) {
+  .popup__btn_end {
+    width: 120px;
+    height: 55px;
+    font-size: 13px;
+    padding: 10px;
+  }
+}

@@ -1,0 +1,12 @@
+.test__place {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 715px) {
+  .test__place {
+    flex-direction: column-reverse;
+  }
+}

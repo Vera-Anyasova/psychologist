@@ -1,0 +1,25 @@
+.header__link {
+  font-family: "otp", Arial, sans-serif;
+  color: #57b597;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.25;
+  text-transform: uppercase;
+  text-underline-position: under;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+@media screen and (max-width: 715px) {
+  .header__link {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 525px) {
+  .header__link {
+    font-size: 12px;
+  }
+}

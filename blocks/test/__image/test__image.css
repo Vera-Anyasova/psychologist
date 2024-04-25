@@ -1,0 +1,32 @@
+.test__image {
+  width: 45%;
+  height: 100%;
+  object-fit: cover;
+}
+
+@media screen and (max-width: 1184px) {
+  .test__image {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 984px) {
+  .test__image {
+    width: 55%;
+  }
+}
+
+@media screen and (max-width: 715px) {
+  .test__image {
+    width: 60%;
+    padding-right: 50px;
+    padding-bottom: 15px;
+  }
+}
+
+@media screen and (max-width: 525px) {
+  .test__image {
+    width: 80%;
+    padding-right: 30px;
+  }
+}

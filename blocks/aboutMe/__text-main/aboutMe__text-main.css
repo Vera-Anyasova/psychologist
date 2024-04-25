@@ -1,0 +1,44 @@
+.aboutMe__text-main {
+  font-family: "otp", Arial, sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  font-weight: 700;
+  color: #5d3b67;
+  line-height: 1.35;
+  padding: 0px;
+  margin: 0 0 15px;
+  box-sizing: border-box;
+  text-align: justify;
+  position: relative;
+}
+
+.aboutMe__text-main::before {
+  content: "";
+  background: url(../../../images/checkmark_green.svg);
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  left: -30px;
+  top: 5px;
+}
+
+@media screen and (max-width: 1184px) {
+  .aboutMe__text-main {
+    font-size: 17px;
+  }
+}
+
+@media screen and (max-width: 1184px) {
+  .aboutMe__text-main::before {
+    width: 16px;
+    height: 16px;
+  }
+}
+
+@media screen and (max-width: 715px) {
+  .aboutMe__text-main {
+    font-size: 16px;
+    margin-bottom: 10px;
+    line-height: 1.28;
+  }
+}

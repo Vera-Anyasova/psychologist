@@ -1,0 +1,29 @@
+.agreement__text-item {
+  position: relative;
+}
+
+.agreement__text-item::before {
+  content: "";
+  background: url(../../../images/checkmark_green.svg);
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  left: -40px;
+  top: 5px;
+}
+
+@media screen and (max-width: 984px) {
+  .agreement__text-item::before {
+    width: 17px;
+    height: 17px;
+    left: -35px;
+  }
+}
+
+@media screen and (max-width: 525px) {
+  .agreement__text-item::before {
+    width: 16px;
+    height: 16px;
+    left: -28px;
+  }
+}

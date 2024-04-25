@@ -1,0 +1,23 @@
+.popup__subtitle_correct {
+  display: block;
+}
+
+.popup__subtitle_correct::before {
+  content: "\2714";
+  color: #57b597;
+  font-size: 30px;
+  font-weight: 400;
+  padding-right: 10px;
+}
+
+@media screen and (max-width: 984px) {
+  .popup__subtitle_correct::before {
+    font-size: 28px;
+  }
+}
+
+@media screen and (max-width: 715px) {
+  .popup__subtitle_correct::before {
+    font-size: 25px;
+  }
+}

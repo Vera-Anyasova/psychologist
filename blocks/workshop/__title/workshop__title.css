@@ -1,0 +1,12 @@
+.workshop__title {
+  max-width: 600px;
+  font-family: "otp", Arial, sans-serif;
+  font-size: 48px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  background: linear-gradient(135deg, #595959 100px, #645959, #b5afaf);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

@@ -1,0 +1,9 @@
+.test-page {
+  padding-bottom: 120px;
+}
+
+@media screen and (max-width: 715px) {
+  .test-page {
+    padding-bottom: 10px;
+  }
+}

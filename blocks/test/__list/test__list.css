@@ -1,0 +1,11 @@
+.test__list {
+  list-style-type: none;
+  padding: 25px 0 20px;
+  margin: 0;
+}
+
+@media screen and (max-width: 715px) {
+  .test__list {
+    padding-bottom: 5px;
+  }
+}

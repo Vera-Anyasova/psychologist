@@ -1,0 +1,10 @@
+.popup__element {
+  background: url(../../../images/icon_logo.png) no-repeat center / cover;
+  min-height: 40px;
+  width: 50px;
+  align-self: center;
+  padding: 0;
+  margin: 0;
+  rotate: 342deg;
+  padding-top: 10px;
+}

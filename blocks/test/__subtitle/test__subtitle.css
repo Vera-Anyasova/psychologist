@@ -1,0 +1,32 @@
+.test__subtitle {
+  font-size: 28px;
+  font-weight: 700;
+  color: #5d3b67;
+  line-height: 1.35;
+  margin: 0;
+  padding: 0;
+}
+
+@media screen and (max-width: 1280px) {
+  .test__subtitle {
+    font-size: 27px;
+  }
+}
+
+@media screen and (max-width: 1184px) {
+  .test__subtitle {
+    font-size: 23px;
+  }
+}
+
+@media screen and (max-width: 715px) {
+  .test__subtitle {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 525px) {
+  .test__subtitle {
+    font-size: 19px;
+  }
+}

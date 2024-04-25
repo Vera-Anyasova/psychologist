@@ -1,0 +1,36 @@
+.aboutMe__title {
+  font-family: "otp", Arial, sans-serif;
+  font-size: 48px;
+  font-weight: 700;
+  text-align: center;
+  color: rgb(93, 59, 103);
+  text-transform: uppercase;
+  margin: 0 0 40px;
+  padding: 0;
+}
+
+@media screen and (max-width: 1184px) {
+  .aboutMe__title {
+    font-size: 42px;
+  }
+}
+
+@media screen and (max-width: 984px) {
+  .aboutMe__title {
+    margin-bottom: 25px;
+  }
+}
+
+@media screen and (max-width: 715px) {
+  .aboutMe__title {
+    width: 90%;
+    font-size: 34px;
+    margin-bottom: 20px;
+  }
+}
+
+@media screen and (max-width: 525px) {
+  .aboutMe__title {
+    font-size: 30px;
+  }
+}

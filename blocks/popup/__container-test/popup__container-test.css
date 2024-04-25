@@ -1,0 +1,6 @@
+.popup__container-test {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}

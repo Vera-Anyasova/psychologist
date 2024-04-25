@@ -1,0 +1,24 @@
+.agreement__title {
+  font-family: "otp", Arial, sans-serif;
+  font-size: 26px;
+  font-weight: 700;
+  text-align: center;
+  color: #5d3b67;
+  text-transform: uppercase;
+  margin: 0 0 40px;
+}
+
+@media screen and (max-width: 984px) {
+  .agreement__title {
+    font-size: 23px;
+    margin-bottom: 30px;
+  }
+}
+
+@media screen and (max-width: 715px) {
+  .agreement__title {
+    width: 90%;
+    font-size: 20px;
+    margin-bottom: 25px;
+  }
+}

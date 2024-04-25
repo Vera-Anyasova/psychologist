@@ -1,0 +1,32 @@
+.profile__element {
+  width: 100%;
+  height: 180px;
+  background: url(../../../images/line3.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-sizing: border-box;
+  margin-top: -7%;
+  filter: blur(10px);
+  margin-bottom: -40px;
+  z-index: 2;
+}
+
+@media screen and (max-width: 1184px) {
+  .profile__element {
+    height: 150px;
+  }
+}
+
+@media screen and (max-width: 984px) {
+  .profile__element {
+    margin-bottom: -30px;
+    margin-top: -5%;
+    height: 100px;
+  }
+}
+
+@media screen and (max-width: 715px) {
+  .profile__element {
+    display: none;
+  }
+}

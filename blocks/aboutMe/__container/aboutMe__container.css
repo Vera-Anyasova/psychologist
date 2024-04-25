@@ -1,0 +1,21 @@
+.aboutMe__container {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 60px;
+}
+
+@media screen and (max-width: 984px) {
+  .aboutMe__container {
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .aboutMe__container {
+    width: 92%;
+    margin-bottom: 40px;
+  }
+}

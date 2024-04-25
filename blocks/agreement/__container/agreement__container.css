@@ -1,0 +1,15 @@
+.agreement__container {
+  width: 80%;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  border: 3px solid #57b597;
+  border-radius: 15px;
+  padding: 10px;
+}
+
+@media screen and (max-width: 1184px) {
+  .agreement__container {
+    width: 90%;
+  }
+}

@@ -1,0 +1,7 @@
+.aboutMe__list {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin: 0 0 10px;
+  list-style-type: none;
+}

@@ -1,0 +1,16 @@
+.popup__article-text {
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 1.2;
+  color: #5d3b67;
+  margin: 0;
+  padding-bottom: 10px;
+  text-align: justify;
+}
+
+@media screen and (max-width: 715px) {
+  .popup__article-text {
+    font-size: 16px;
+    padding-bottom: 5px;
+  }
+}

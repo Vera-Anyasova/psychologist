@@ -1,0 +1,11 @@
+.profile__icon {
+  background: url(../../../images/icon2.png) no-repeat;
+  background-size: cover;
+  width: 200px;
+  height: 60px;
+  padding: 0;
+  z-index: 20;
+  position: relative;
+  top: 350px;
+  right: 215px;
+}

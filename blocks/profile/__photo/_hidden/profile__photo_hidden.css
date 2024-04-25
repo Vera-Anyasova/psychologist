@@ -1,0 +1,12 @@
+.profile__photo_hidden {
+  display: none;
+}
+
+@media screen and (max-width: 715px) {
+  .profile__photo_hidden {
+    display: flex;
+    align-self: center;
+    width: 85%;
+    margin: 15px 0 0;
+  }
+}

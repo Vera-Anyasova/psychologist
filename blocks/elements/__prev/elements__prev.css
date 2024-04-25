@@ -1,0 +1,21 @@
+.elements__prev {
+  width: 50px;
+  height: 50px;
+  background: url(../../../images/arrow_right_next_green.svg) no-repeat center /
+    contain;
+  border: none;
+  transform: rotate(-180deg);
+  padding: 0;
+  margin: 0;
+}
+
+.elements__prev:hover {
+  cursor: pointer;
+  opacity: 0.7;
+}
+
+@media screen and (max-width: 1184px) {
+  .elements__prev:hover {
+    cursor: none;
+  }
+}

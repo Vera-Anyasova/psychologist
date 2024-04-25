@@ -1,0 +1,15 @@
+.telegram__title {
+  font-family: "otp", Arial, sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  text-align: center;
+  color: #5d3b67;
+  text-transform: uppercase;
+  margin: 0 0 15px;
+}
+
+@media screen and (max-width: 525px) {
+  .telegram__title {
+    font-size: 30px;
+  }
+}

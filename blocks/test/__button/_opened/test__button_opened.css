@@ -1,0 +1,10 @@
+.test__button_opened {
+  padding: 0;
+}
+
+@media screen and (max-width: 984px) {
+  .test__button {
+    width: 250px;
+    height: 84px;
+  }
+}
