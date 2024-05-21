@@ -1,3 +1,3 @@
 # Project Psychologist
 
-Cсылка на GitHub Pages: https://vera-anyasova.github.io/Psychologist/
+Cсылка на GitHub Pages: https://github.com/Vera-Anyasova/psychologist.git
