@@ -3,3 +3,10 @@
   align-self: center;
   padding-left: 0;
 }
+
+@media screen and (max-width: 715px) {
+  .popup__btn-test {
+    font-weight: 700;
+    max-width: 180px;
+  }
+}

@@ -1,0 +1,19 @@
+.popup__iframe {
+  width: 330px;
+  height: 50px;
+  border: 0;
+  padding: 0;
+  margin: 0;
+}
+
+@media screen and (max-width: 715px) {
+  .popup__iframe {
+    align-self: center;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .popup__iframe {
+    width: 320px;
+  }
+}

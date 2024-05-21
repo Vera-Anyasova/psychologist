@@ -1,0 +1,18 @@
+.popup__card-payment {
+  display: flex;
+}
+
+@media screen and (max-width: 715px) {
+  .popup__card-payment {
+    width: 80%;
+    max-width: 100%;
+    max-height: fit-content;
+    padding: 30px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .popup__card-payment {
+    padding: 20px 0;
+  }
+}
