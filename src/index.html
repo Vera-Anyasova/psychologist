@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Психология</title>
+  </head>
+  <body class="page">
+    <header class="header">
+      <div class="header__item">
+        <div class="header__place">
+          <div class="header__logo"></div>
+          <p class="header__text">Александра Мугинова</p>
+        </div>
+        <button
+          class="header__menu"
+          type="button"
+          aria-label="Меню."
+          value="Меню"
+        ></button>
+      </div>
+    </header>
+    <main class="content">
+      <section class="profile">
+        <div class="profile__place">
+          <div class="profile__photo-back"></div>
+          <div class="profile__info">
+            <img
+              src="<%=require('./images/photo_profile.png')%>"
+              alt="Фото автора"
+              class="profile__photo"
+            />
+            <div class="profile__content">
+              <div class="profile__item">
+                <img
+                  src="<%=require('./images/line02.png')%>"
+                  class="profile__image"
+                  alt="Линии."
+                />
+                <h1 class="profile__title">Психолог</h1>
+                <img
+                  src="<%=require('./images/line03.png')%>"
+                  class="profile__image"
+                  alt="Линии."
+                />
+              </div>
+              <h2 class="profile__title">Семейный и детский</h2>
+              <img
+                src="<%=require('./images/photo_profile.png')%>"
+                alt="Фото автора"
+                class="profile__photo profile__photo_hidden"
+              />
+              <div class="profile__element profile__element_hidden"></div>
+              <p class="profile__subtitle">
+                "Не ребенок должен понимать родителя, а вы ребенка. Потому что
+                вы были ребенком, а он ещё не был взрослым."
+              </p>
+              <a href="./page4.html" class="profile__link profile__button"
+                >Записаться</a
+              >
+            </div>
+          </div>
+          <div class="profile__element"></div>
+        </div>
+      </section>
+      <section class="test" id="test">
+        <h2 class="test__title">Как вы воспитываете своих детей?</h2>
+        <div class="test__place">
+          <a href="./page3.html" class="test__link test__button">Пройти тест</a>
+          <img
+            src="<%=require('./images/image_test.png')%>"
+            alt="Нарисованные мальчик и девочка держутся за руки."
+            class="test__image"
+          />
+        </div>
+      </section>
+      <section class="test">
+        <h2 class="test__title test__title_width" id="workshop">
+          Практикумы для тех, у кого есть дети
+        </h2>
+        <div class="test__section">
+          <div class="test__place-list">
+            <p class="test__subtitle">
+              Практикум для родителей, которые хотят:
+            </p>
+            <ul class="test__list">
+              <li class="test__item">
+                <img
+                  src="<%=require('./images/icon_list_1.svg')%>"
+                  alt="Иконка."
+                  class="test__icon"
+                />
+                <p class="test__text">Проверить уровень самооценки ребенка.</p>
+              </li>
+              <li class="test__item">
+                <img
+                  src="<%=require('./images/icon_list_9.svg')%>"
+                  alt="Иконка."
+                  class="test__icon"
+                />
+                <p class="test__text">
+                  Узнать, что повлияло и продолжает влиять на ее формирование.
+                </p>
+              </li>
+              <li class="test__item">
+                <img
+                  src="<%=require('./images/icon_list_20.svg')%>"
+                  alt="Иконка."
+                  class="test__icon"
+                />
+                <p class="test__text">
+                  Понять, кто в вашем окружении оказывает негативное влияние на
+                  веру ребенка в себя.
+                </p>
+              </li>
+              <li class="test__item">
+                <img
+                  src="<%=require('./images/icon_list_16.svg')%>"
+                  alt="Иконка."
+                  class="test__icon"
+                />
+                <p class="test__text">
+                  Получить 4 эффективных практических упражнения на повышение
+                  самооценки, которые вы сможете применить уже сегодня.
+                </p>
+              </li>
+            </ul>
+            <button
+              type="button"
+              class="test__button test__button-item"
+              aria-label="Пройти тест."
+            >
+              Приобрести
+            </button>
+          </div>
+          <div class="test__place-image">
+            <img
+              src="<%=require('./images/workshop_1.png')%>"
+              alt="Обложка практикума."
+              class="test__workshop"
+            />
+            <div class="test__element"></div>
+            <p class="test__quote">
+              "Уверенность и успех ребенка начинается с его самооценки."
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="promo" id="promo">
+        <h2 class="promo__title">Бесплатные практикумы</h2>
+        <ul class="promo__list">
+          <li class="promo__element">
+            <img
+              src="<%=require('./images/workshop_2.png')%>"
+              alt="Обложка практикума."
+              class="promo__image"
+            />
+            <h3 class="promo__subtitle">Как не отбить желание учиться</h3>
+            <a
+              href="https://drive.google.com/file/d/1fPdczSf0e_pOVq3rSq6Fnld_AgWo3kvR/view?usp=drive_link"
+              target="_blank"
+              class="promo__link promo__button"
+              >Смотреть</a
+            >
+          </li>
+          <li class="promo__element">
+            <img
+              src="<%=require('./images/workshop_3.png')%>"
+              alt="Обложка практикума."
+              class="promo__image"
+            />
+            <h3 class="promo__subtitle promo__subtitle-place">
+              Список книг по половому воспитанию
+            </h3>
+            <a
+              href="https://drive.google.com/file/d/1WqThaGcYxjzl5797QIKy9k08gSWt3ekd/view?usp=drive_link"
+              target="_blank"
+              class="promo__link promo__button"
+              >Смотреть</a
+            >
+          </li>
+        </ul>
+      </section>
+      <section class="aboutMe" id="aboutMe">
+        <h2 class="aboutMe__title">Обо мне</h2>
+        <div class="aboutMe__container">
+          <div class="aboutMe__section">
+            <ul class="aboutMe__list">
+              <li class="aboutMe__text-main">
+                Практикующий психолог по детско-родительским отношениям.
+              </li>
+              <li class="aboutMe__text-main">
+                Тренер по детской безопасности в школе «Стоп Угроза».
+              </li>
+            </ul>
+            <p class="aboutMe__subtitle">Образование</p>
+            <ul class="aboutMe__place">
+              <li class="aboutMe__text">
+                <span class="aboutMe__text-place"
+                  >Московский институт психоанализа,</span
+                >
+                магистратура, факультет "Семейное консультирование и
+                психотерапия", 2023 г. - н.в.
+              </li>
+              <li class="aboutMe__text">
+                <span class="aboutMe__text-place"
+                  >АНО ДПО "Академия профессиональной подготовки и повышения
+                  квалификации кадров",</span
+                >
+                "Гештальт-терапия в практике психолога" 2022 г.
+              </li>
+              <li class="aboutMe__text">
+                Пройдено более 50 вебинаров, тренингов и курсов по психологии у
+                ведущих психологов России.
+              </li>
+            </ul>
+            <a href="./page2.html" class="aboutMe__link aboutMe__button"
+              >Подробнее</a
+            >
+          </div>
+          <div class="aboutMe__place-image">
+            <img
+              src="<%=require('./images/photo_aboutMe.png')%>"
+              class="aboutMe__image"
+              alt="Портрет."
+            />
+            <div class="aboutMe__element"></div>
+          </div>
+        </div>
+      </section>
+      <section class="card">
+        <div class="card__wrapper">
+          <div class="card__running">
+            <div class="card__row">
+              <img
+                src="<%=require('./images/card_1.jpg')%>"
+                alt="Тренинг в школе."
+                class="card__image"
+              />
+              <img
+                src="<%=require('./images/card_2.jpg')%>"
+                alt="Тренинг в школе."
+                class="card__image"
+              />
+              <img
+                src="<%=require('./images/card_3.jpg')%>"
+                alt="Тренинг в школе."
+                class="card__image"
+              />
+              <img
+                src="<%=require('./images/card_4.jpg')%>"
+                alt="Тренинг в школе."
+                class="card__image"
+              />
+              <img
+                src="<%=require('./images/card_5.jpg')%>"
+                alt="Тренинг в школе."
+                class="card__image"
+              />
+              <img
+                src="<%=require('./images/card_6.jpg')%>"
+                alt="Тренинг в школе."
+                class="card__image"
+              />
+              <img
+                src="<%=require('./images/card_13.jpg')%>"
+                alt="Тренинг в школе."
+                class="card__image"
+              />
+              <img
+                src="<%=require('./images/card_1.jpg')%>"
+                alt="Тренинг в школе."
+                class="card__image"
+              />
+              <img
+                src="<%=require('./images/card_2.jpg')%>"
+                alt="Тренинг в школе."
+                class="card__image"
+              />
+              <img
+                src="<%=require('./images/card_3.jpg')%>"
+                alt="Тренинг в школе."
+                class="card__image"
+              />
+              <img
+                src="<%=require('./images/card_4.jpg')%>"
+                alt="Тренинг в школе."
+                class="card__image"
+              />
+              <img
+                src="<%=require('./images/card_5.jpg')%>"
+                alt="Тренинг в школе."
+                class="card__image"
+              />
+              <img
+                src="<%=require('./images/card_6.jpg')%>"
+                alt="Тренинг в школе."
+                class="card__image"
+              />
+              <img
+                src="<%=require('./images/card_13.jpg')%>"
+                alt="Тренинг в школе."
+                class="card__image"
+              />
+            </div>
+            <div class="card__row">
+              <img
+                src="<%=require('./images/card_7.jpg')%>"
+                alt="Проведение тренинга с детьми."
+                class="card__image"
+              />
+              <img
+                src="<%=require('./images/card_8.jpg')%>"
+                alt="Фото автора на конференции."
+                class="card__image"
+              />
+              <img
+                src="<%=require('./images/card_9.jpg')%>"
+                alt="Автор ведёт тренинг."
+                class="card__image card__image_position"
+              />
+              <img
+                src="<%=require('./images/card_10.jpg')%>"
+                alt="Проведение тренинга с детьми."
+                class="card__image"
+              />
+              <img
+                src="<%=require('./images/card_14.jpg')%>"
+                alt="Проведение тренинга с детьми."
+                class="card__image"
+              />
+              <img
+                src="<%=require('./images/card_11.jpg')%>"
+                alt="Проведение тренинга с детьми."
+                class="card__image"
+              />
+              <img
+                src="<%=require('./images/card_12.jpg')%>"
+                alt="Проведение тренинга с детьми."
+                class="card__image"
+              />
+              <img
+                src="<%=require('./images/card_7.jpg')%>"
+                alt="Проведение тренинга с детьми."
+                class="card__image"
+              />
+              <img
+                src="<%=require('./images/card_8.jpg')%>"
+                alt="Фото автора на конференции."
+                class="card__image"
+              />
+              <img
+                src="<%=require('./images/card_9.jpg')%>"
+                alt="Автор ведёт тренинг."
+                class="card__image card__image_position"
+              />
+              <img
+                src="<%=require('./images/card_10.jpg')%>"
+                alt="Проведение тренинга с детьми."
+                class="card__image"
+              />
+              <img
+                src="<%=require('./images/card_14.jpg')%>"
+                alt="Проведение тренинга с детьми."
+                class="card__image"
+              />
+              <img
+                src="<%=require('./images/card_11.jpg')%>"
+                alt="Проведение тренинга с детьми."
+                class="card__image"
+              />
+              <img
+                src="<%=require('./images/card_12.jpg')%>"
+                alt="Проведение тренинга с детьми."
+                class="card__image"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="telegram" id="contact">
+        <div class="telegram__place">
+          <h3 class="telegram__title">Телеграм канал</h3>
+          <p class="telegram__text">Где я отвечаю на вопросы читателей</p>
+          <div class="telegram__links">
+            <a
+              href="https://t.me/sashamuginova_psycho"
+              target="_blank"
+              class="telegram__link"
+            ></a>
+            <a
+              href="https://t.me/sashamuginova_psycho"
+              target="_blank"
+              class="telegram__button"
+              >Присоединиться</a
+            >
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <p class="footer__text">Политика конфиденциальности</p>
+      <p class="footer__copyright">© 2024</p>
+    </footer>
+    <div class="popup">
+      <div class="popup__container">
+        <button
+          type="button"
+          class="popup__button"
+          aria-label="Закрыть изображение."
+        ></button>
+        <div class="popup__menu">
+          <a href="#test" class="popup__link"
+            ><p class="popup__text">Пройти тест</p></a
+          >
+          <a href="#workshop" class="popup__link"
+            ><p class="popup__text">Практикум</p></a
+          >
+          <a href="#promo" class="popup__link"
+            ><p class="popup__text">Бесплатные материалы</p></a
+          >
+          <a href="#aboutMe" class="popup__link"
+            ><p class="popup__text">Обо мне</p></a
+          >
+          <a href="#contact" class="popup__link"
+            ><p class="popup__text">Мои контакты</p></a
+          >
+        </div>
+      </div>
+    </div>
+    <div class="popup popup_payment">
+      <div class="popup__container-test">
+        <div class="popup__card">
+          <button
+            type="button"
+            class="popup__button"
+            aria-label="Закрыть изображение."
+          ></button>
+          <div class="popup__menu-payment">
+            <p class="popup__text popup__text-payment">
+              Чтобы оплатить практикум, кликните по кнопке &#128071;
+            </p>
+            <iframe
+              src="https://yoomoney.ru/quickpay/fundraise/button?billNumber=12A9Q1E98D7.240424&"
+              width="330"
+              height="50"
+              frameborder="0"
+              allowtransparency="true"
+              scrolling="no"
+            ></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
