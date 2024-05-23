@@ -4,27 +4,3 @@
   box-sizing: border-box;
   object-fit: cover;
 }
-
-/* @media screen and (max-width: 1280px) {
-  .profile__photo {
-    height: 542px;
-  }
-}
-
-@media screen and (max-width: 1184px) {
-  .profile__photo {
-    height: 535px;
-  }
-}
-
-@media screen and (max-width: 984px) {
-  .profile__photo {
-    height: 390px;
-  }
-}
-
-@media screen and (max-width: 715px) {
-  .profile__photo {
-    display: none;
-  }
-}  */

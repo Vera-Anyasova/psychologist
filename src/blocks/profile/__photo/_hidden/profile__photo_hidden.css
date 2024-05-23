@@ -4,7 +4,6 @@
 
 @media screen and (max-width: 715px) {
   .profile__photo_hidden {
-    height: auto;
     display: flex;
     align-self: center;
     width: 85%;
