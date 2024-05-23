@@ -1,18 +1,17 @@
 .profile__photo {
   width: 100%;
-  height: 660px;
+  height: auto;
   box-sizing: border-box;
   object-fit: cover;
 }
 
-@media screen and (max-width: 1280px) {
+/* @media screen and (max-width: 1280px) {
   .profile__photo {
-    /* height: 542px; */
-    height: auto;
+    height: 542px;
   }
 }
 
-/* @media screen and (max-width: 1184px) {
+@media screen and (max-width: 1184px) {
   .profile__photo {
     height: 535px;
   }
@@ -28,4 +27,4 @@
   .profile__photo {
     display: none;
   }
-} */
+}  */
