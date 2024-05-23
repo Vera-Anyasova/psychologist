@@ -1,13 +1,21 @@
 .profile__photo {
   width: 100%;
-  height: auto;
-  padding: 0;
-  margin: 0;
+  max-height: 620px;
+  min-height: fit-content;
+  box-sizing: border-box;
+  object-fit: cover;
 }
 
 /* @media screen and (max-width: 1280px) {
   .profile__photo {
-    width: 420px;
+    height: ;
+  }
+} */
+
+/* @media screen and (max-width: 1184px) {
+  .profile__photo {
+    width: 40%;
+    min-height: 390px;
   }
 }
 

@@ -1,6 +1,6 @@
 .profile__place-photo {
   max-width: 40%;
-  display: flex;
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
