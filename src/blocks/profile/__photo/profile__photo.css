@@ -1,6 +1,7 @@
 .profile__photo {
   width: 460px;
   max-width: 100%;
+  height: auto;
   padding: 0;
   margin: 0;
 }
@@ -14,6 +15,7 @@
 @media screen and (max-width: 984px) {
   .profile__photo {
     width: 40%;
+    min-height: 390px;
   }
 }
 
