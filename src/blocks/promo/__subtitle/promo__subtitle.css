@@ -16,7 +16,12 @@
 
 @media screen and (max-width: 715px) {
   .promo__subtitle {
-    max-width: 250px;
     font-size: 32px;
+  }
+}
+
+@media screen and (max-width: 525px) {
+  .promo__subtitle {
+    font-size: 28px;
   }
 }

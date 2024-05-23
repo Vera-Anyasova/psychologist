@@ -34,7 +34,8 @@
 
 @media screen and (max-width: 525px) {
   .promo__element {
-    width: 310px;
+    width: 85%;
+    max-width: 310px;
     margin-bottom: 30px;
   }
 }
