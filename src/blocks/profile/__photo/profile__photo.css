@@ -1,12 +1,18 @@
 .profile__photo {
-  width: 42%;
   height: auto;
-  object-fit: cover;
+  width: 100%;
+  max-width: 460px;
   padding: 0;
   margin: 0;
 }
 
 @media screen and (max-width: 1280px) {
+  .profile__photo {
+    max-width: 420px;
+  }
+}
+
+@media screen and (max-width: 984px) {
   .profile__photo {
     width: 40%;
   }
