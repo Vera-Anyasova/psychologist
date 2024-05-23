@@ -137,7 +137,7 @@
 .test__title_width{margin-bottom:20px;max-width:600px}@media screen and (max-width:1184px){.test__title_width{max-width:540px}}@media screen and (max-width:715px){.test__title_width{max-width:430px}}
 .test__button_opened{padding:0}@media screen and (max-width:984px){.test__button{height:84px;width:250px}}
 .card__image_position{-o-object-position:top;object-position:top}
-.profile__photo_hidden{display:none}@media screen and (max-width:715px){.profile__photo_hidden{align-self:center;display:flex;height:auto;margin:15px 0 0;width:85%}}
+.profile__photo_hidden{display:none}@media screen and (max-width:715px){.profile__photo_hidden{align-self:center;display:flex;margin:15px 0 0;width:85%}}
 .profile__element_hidden{display:none}@media screen and (max-width:715px){.profile__element_hidden{display:flex;height:80px;margin-bottom:0}}@media screen and (max-width:525px){.profile__element_hidden{display:flex;height:80px;margin-top:-10%}}
 .popup__subtitle_correct{display:block}.popup__subtitle_correct:before{color:#57b597;content:"\2714";font-size:30px;font-weight:400;padding-right:10px}@media screen and (max-width:984px){.popup__subtitle_correct:before{font-size:28px}}@media screen and (max-width:715px){.popup__subtitle_correct:before{font-size:25px}}
 .popup__subtitle_incorrect{color:red;display:block}
