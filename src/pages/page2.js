@@ -1,8 +1,5 @@
 import "./index.css";
-
-const cardList = document.querySelector("#elements__list");
-const buttonPrev = document.querySelector(".elements__prev");
-const buttonNext = document.querySelector(".elements__next");
+import { cardList, buttonPrev, buttonNext } from "../utils/constants.js";
 
 const cards = Array.from(cardList.children);
 

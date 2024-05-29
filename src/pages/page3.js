@@ -1,70 +1,34 @@
 import "./index.css";
 import { questions } from "../utils/questions.js";
-
-const popupTest = document.querySelector(".popup_test");
-const popupAnswer = document.querySelector(".popup_answer");
-const popupFinish = document.querySelector(".popup_finish");
-const buttonOpenPopupTest = document.querySelector(".test__button_opened");
-const questionList = document.querySelector(".popup__heading");
-const buttonAgreeClick = document.querySelector(".popup__btn_agree");
-const buttonDisagreeClick = document.querySelector(".popup__btn_disagree");
-const questionResponce = document.querySelector(".popup__subtitle");
-const answerList = document.querySelector(".popup__test-text");
-const buttonNextQuestion = document.querySelector(".popup__btn-test");
-const buttonAgain = document.querySelector(".popup__btn_again");
-const buttonFinish = document.querySelector(".popup__btn_end");
-const numberOfQuestion = document.querySelector(".popup__number");
+import { Popup } from "../components/Popup.js";
+import {
+  buttonOpenPopupTest,
+  questionList,
+  buttonAgreeClick,
+  buttonDisagreeClick,
+  questionResponce,
+  answerList,
+  buttonNextQuestion,
+  buttonAgain,
+  buttonFinish,
+  numberOfQuestion,
+} from "../utils/constants.js";
 
 let currentQuestionIndex = 0;
-let indexOfPage = 0;
 
-// Открытие и закрытие попапа
+const popupTest = new Popup({ popupSelector: ".popup_test" });
+popupTest.setEventListeners();
 
-const openPopup = function (popup) {
-  popup.classList.add("popup_opened");
-  document.addEventListener("keydown", handleKeyDown);
-};
+const popupAnswer = new Popup({ popupSelector: ".popup_answer" });
 
-const closePopup = function (popup) {
-  popup.classList.remove("popup_opened");
-  document.removeEventListener("keydown", handleKeyDown);
-};
-
-// Закрытие попапа нажатием на Esc
-
-function handleKeyDown(evt) {
-  if (evt.key === "Escape") {
-    closePopup(document.querySelector(".popup_opened"));
-  }
-}
-
-// Закрытие попапа кликом на оверлей и на крестик
-
-popupTest.addEventListener("mousedown", (evt) => {
-  if (evt.target.classList.contains("popup_opened")) {
-    closePopup(popupTest);
-  }
-  if (evt.target.classList.contains("popup__button")) {
-    closePopup(popupTest);
-    currentQuestionIndex = 0;
-  }
-});
-
-// Закрытие попапа кликом на оверлей и на крестик
-
-popupFinish.addEventListener("mousedown", (evt) => {
-  if (evt.target.classList.contains("popup_opened")) {
-    closePopup(popupFinish);
-  }
-  if (evt.target.classList.contains("popup__button")) {
-    closePopup(popupFinish);
-  }
-});
+const popupFinish = new Popup({ popupSelector: ".popup_finish" });
+popupFinish.setEventListeners();
 
 // Открытие теста при клике по кнопке начать тест
 
 buttonOpenPopupTest.addEventListener("click", function () {
-  openPopup(popupTest);
+  popupTest.open();
+  currentQuestionIndex = 0;
   renderQuestion();
 });
 
@@ -111,27 +75,27 @@ buttonFinish.addEventListener("click", () => quizOver());
 // Отображение следующего вопроса
 
 function buttonNextQuestionClick() {
-  closePopup(popupAnswer);
+  popupAnswer.close();
   if (currentQuestionIndex < questions.length - 1) {
     currentQuestionIndex = currentQuestionIndex + 1;
   }
 
   renderQuestion();
-  openPopup(popupTest);
+  popupTest.open();
 }
 
 // Открытие попапа завершающего тест
 
 function quizOver() {
   currentQuestionIndex = 0;
-  closePopup(popupAnswer);
-  openPopup(popupFinish);
+  popupAnswer.close();
+  popupFinish.open();
 }
 
 // Отображение ответа в соответсвии с условием
 
 function checkAnswer(answer) {
-  closePopup(popupTest);
+  popupTest.close();
   const questionAnswer = questions[currentQuestionIndex];
   if (questionAnswer.correct === answer || questionAnswer.correct === "all") {
     // show correct
@@ -146,5 +110,5 @@ function checkAnswer(answer) {
     questionResponce.textContent = "XXX";
     answerList.textContent = questionAnswer.answers[1];
   }
-  openPopup(popupAnswer);
+  popupAnswer.open();
 }
