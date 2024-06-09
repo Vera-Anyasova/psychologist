@@ -1,0 +1,5 @@
+.popup__list {
+  list-style-type: decimal;
+  margin: 0;
+  padding: 0 0 0 40px;
+}

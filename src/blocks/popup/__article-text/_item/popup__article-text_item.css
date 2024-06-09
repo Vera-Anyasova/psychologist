@@ -1,0 +1,14 @@
+.popup__article-text_item {
+  border-top: 2px solid #57b597;
+  border-bottom: 2px solid #57b597;
+  padding-top: 10px;
+  margin-bottom: 12px;
+}
+
+@media screen and (max-width: 715px) {
+  .popup__article-text_item {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin-bottom: 10px;
+  }
+}

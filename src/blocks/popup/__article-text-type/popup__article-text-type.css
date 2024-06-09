@@ -1,0 +1,11 @@
+.popup__article-text-type {
+  font-size: 25px;
+  padding: 0;
+  margin: 0;
+}
+
+@media screen and (max-width: 715px) {
+  .popup__article-text-type {
+    font-size: 21px;
+  }
+}

@@ -1,18 +1,44 @@
 .popup__card-payment {
-  display: flex;
+  width: 70%;
+  min-height: fit-content;
+  box-sizing: border-box;
+  position: relative;
+  border-radius: 10px;
+  overflow: auto;
+}
+
+@media screen and (max-width: 1184px) {
+  .popup__card-payment {
+    width: 80%;
+    max-height: 80vh;
+  }
 }
 
 @media screen and (max-width: 715px) {
   .popup__card-payment {
-    width: 80%;
-    max-width: 100%;
-    max-height: fit-content;
-    padding: 30px;
+    width: 85%;
+    max-height: 90vh;
   }
 }
 
-@media screen and (max-width: 425px) {
-  .popup__card-payment {
-    padding: 20px 0;
-  }
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track,
+::-webkit-scrollbar-thumb {
+  border-radius: 14px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  margin: 7px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #57b597;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #4fb796;
 }
