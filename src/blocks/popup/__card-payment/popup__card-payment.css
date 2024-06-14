@@ -4,9 +4,6 @@
   box-sizing: border-box;
   border-radius: 10px;
   overflow: auto;
-  position: absolute;
-  top: 10px;
-  left: 10px;
   /* -webkit-overflow-scrolling: auto; */
   /* -webkit-overflow-scrolling: auto; */
   /* overflow-x: hidden;
@@ -27,6 +24,9 @@
 
 @media screen and (max-width: 715px) {
   .popup__card-payment {
+    position: absolute;
+    top: 10px;
+    left: 10px;
     width: 90%;
     max-height: 300px;
   }
