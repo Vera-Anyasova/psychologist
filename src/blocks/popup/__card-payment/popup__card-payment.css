@@ -2,9 +2,17 @@
   width: 70%;
   min-height: fit-content;
   box-sizing: border-box;
-  position: relative;
   border-radius: 10px;
   overflow: auto;
+  -webkit-overflow-scrolling: auto;
+  /* -webkit-overflow-scrolling: auto; */
+  /* overflow-x: hidden;
+  overflow-y: scroll;
+  translate: none;
+  rotate: none;
+  scale: none;
+  transform: translate(0px, 0px); */
+  /* opacity: 1; */
 }
 
 @media screen and (max-width: 1184px) {
@@ -17,7 +25,7 @@
 @media screen and (max-width: 715px) {
   .popup__card-payment {
     width: 85%;
-    max-height: 90vh;
+    height: 300px;
   }
 }
 
