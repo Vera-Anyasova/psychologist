@@ -2,5 +2,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  transition: none;
   /* transform: translateY(0); */
 }

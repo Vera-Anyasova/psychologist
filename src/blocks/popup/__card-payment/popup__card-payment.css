@@ -4,7 +4,8 @@
   box-sizing: border-box;
   border-radius: 10px;
   overflow: auto;
-  -webkit-overflow-scrolling: auto;
+  position: relative;
+  /* -webkit-overflow-scrolling: auto; */
   /* -webkit-overflow-scrolling: auto; */
   /* overflow-x: hidden;
   overflow-y: scroll;
@@ -24,12 +25,12 @@
 
 @media screen and (max-width: 715px) {
   .popup__card-payment {
-    width: 85%;
-    height: 300px;
+    width: 90%;
+    max-height: 300px;
   }
 }
 
-::-webkit-scrollbar {
+/* ::-webkit-scrollbar {
   width: 5px;
 }
 
@@ -49,4 +50,4 @@
 
 ::-webkit-scrollbar-thumb:hover {
   background: #4fb796;
-}
+} */
