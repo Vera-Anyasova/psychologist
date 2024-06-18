@@ -5,6 +5,7 @@ export const links = document.querySelectorAll(".popup__link");
 export const cardList = document.querySelector("#elements__list");
 export const buttonPrev = document.querySelector(".elements__prev");
 export const buttonNext = document.querySelector(".elements__next");
+export const buttonArrowUp = document.querySelector(".profile__button-arrow");
 export const popupTest = document.querySelector(".popup_test");
 export const popupAnswer = document.querySelector(".popup_answer");
 export const popupFinish = document.querySelector(".popup_finish");

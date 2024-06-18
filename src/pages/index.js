@@ -1,6 +1,7 @@
 import "./index.css";
 
 import { Popup } from "../components/Popup.js";
+import { SectionWithButton } from "../components/SectionWithButton.js";
 import {
   buttonOpenPopup,
   buttonOpenPopupPayment,
@@ -28,3 +29,10 @@ links.forEach((item) => {
     popupMenu.close();
   });
 });
+
+// Прокручивание страницы к началу
+
+const sectionWithButton = new SectionWithButton({
+  buttonSelector: ".profile__button-arrow",
+});
+sectionWithButton.addEventListener();

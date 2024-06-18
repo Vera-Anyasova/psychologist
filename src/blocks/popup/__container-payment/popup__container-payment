@@ -1,0 +1,14 @@
+.popup__container-payment {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  position: relative;
+}
+
+@media screen and (max-width: 715px) {
+  .popup__container-payment {
+    position: absolute;
+    top: 15px;
+    left: 0;
+  }
+}
