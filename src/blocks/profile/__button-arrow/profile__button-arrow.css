@@ -8,3 +8,8 @@
   border: 0;
   z-index: 100;
 }
+
+.profile__button-arrow:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
