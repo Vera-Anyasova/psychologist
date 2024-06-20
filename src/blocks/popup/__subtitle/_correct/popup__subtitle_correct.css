@@ -4,7 +4,8 @@
 
 .popup__subtitle_correct::before {
   content: "\2714";
-  color: #57b597 !important;
+  /* color: #57b597; */
+  color: green;
   font-size: 30px;
   font-weight: 400;
   padding-right: 10px;
