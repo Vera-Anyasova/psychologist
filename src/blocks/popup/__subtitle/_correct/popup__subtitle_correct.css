@@ -3,11 +3,10 @@
 }
 
 .popup__subtitle_correct::before {
-  content: "\2714";
-  /* color: #57b597; */
-  color: green;
+  content: "\2713";
+  color: #57b597;
   font-size: 30px;
-  font-weight: 400;
+  font-weight: 700;
   padding-right: 10px;
 }
 

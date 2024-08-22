@@ -36,3 +36,13 @@ const sectionWithButton = new SectionWithButton({
   buttonSelector: ".profile__button-arrow",
 });
 sectionWithButton.addEventListener();
+
+// изменять год автоматически
+
+const date = new Date();
+const currentYear = date.getFullYear();
+const time = document.querySelector("time");
+console.log(time);
+
+time.setAttribute("datetime", date);
+time.innerHTML = currentYear;
