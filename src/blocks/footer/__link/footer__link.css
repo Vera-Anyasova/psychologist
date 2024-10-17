@@ -1,20 +1,21 @@
-.footer__text {
+.footer__link {
   font-family: "otp", Arial, sans-serif;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.2;
   color: #fff;
+  text-decoration: none;
   margin: 0 0 0 20px;
   padding: 0;
 }
 
-.footer__text:hover {
+.footer__link {
   cursor: pointer;
   opacity: 0.7;
 }
 
 @media screen and (max-width: 525px) {
-  .footer__text {
+  .footer__link {
     font-size: 13px;
   }
 }

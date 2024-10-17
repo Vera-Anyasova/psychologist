@@ -1,0 +1,9 @@
+.popup__container-answer {
+  display: flex;
+}
+
+@media screen and (max-width: 984px) {
+  .popup__container-answer {
+    align-self: start;
+  }
+}

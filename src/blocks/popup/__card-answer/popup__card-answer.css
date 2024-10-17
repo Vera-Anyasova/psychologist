@@ -17,5 +17,7 @@
   .popup__card-answer {
     width: 90%;
     max-height: 500px;
+    margin-top: 2%;
+    margin-bottom: 2%;
   }
 }
